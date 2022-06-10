@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/all.css">
+  <script src="./js/all.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+<!-- Header -->
+  <nav class="navbar">
+    <a href="#"><img class="navbar_logo" src="./assets/logo-coding.svg" alt="coding log"></a>
+    
+    <ul class="navbar_menu">
+      <li class="navbar_item"><a href="#">Home</a></li>
+      
+      <li class="navbar_item">
+        <a href="#" class="dropdown">Services</a>
+        
+        <div class="submenu">
+          <img src="./assets/dropdown-image.svg" alt="">
+
+          <div class="submenu_itens">
+            <div class="submenu_item">
+              <h4>lorem ipsum</h4>
+            </div>
+            <div class="submenu_item">
+              <h4>lorem ipsum</h4>
+            </div>
+            <div class="submenu_item">
+              <h4>lorem ipsum</h4>
+            </div>
+          </div>
+        </div>
+      </li>
+      
+      <li class="navbar_item">
+        <a href="#" class="dropdown">Login</a>
+
+        <div class="submenu">
+          <div class="form">
+            <p class="form_input">User</p>
+            <p class="form_input">logged</p>
+
+            <button class="form_btn">Exit</button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </nav>
+<!-- end Header -->
+
+ <!-- About Me -->
+ <div class="all-about-me">
+  <div class="aboutme-buttons">
+    <button id="lyssa">Lyssa</button>
+    <button id="neylson">Neylson</button>
+    <button id="victor">Victor</button>
+  </div> 
+
+  <div id="about-me">
+    <div id="description_lyssa" class="active">
+      <div class="avatar">
+        <img src="assets/lyssa.svg" alt="">
+      </div>
+
+      <div class="text">
+        <h3>Lyssa</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quas laborum, fugit incidunt illo et repellendus delectus accusamus sint ex neque deserunt. Veniam sapiente repellendus iure nisi architecto nam facere.</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p>
+      </div>
+    </div>
+
+    <div id="description_victor" class="inactive">
+      <div class="avatar">
+        <img src="assets/victor.svg" alt="">
+      </div>
+
+      <div class="text">
+        <h3>Victor</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p>
+      </div>
+    </div>
+
+    <div id="description_neylson" class="inactive">
+      <div class="avatar">
+        <img src="assets/hideo.svg" alt="">
+      </div>
+      
+      <div class="text">
+        <h3>Neylson</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p><br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, amet tempora! Iusto, fuga soluta consectetur numquam alias perspiciatis perferendis, placeat sint nobis minima in nihil voluptas id rem commodi distinctio!</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end About Me -->
+
+<!-- modal-->
+<div class="modal">
+    <div class="conteudo_modal">
+    <h3> Do you really want to log out?</h3>
+      <div class="botoes_modal">
+      <button id="logOut">Log Out</button>
+      <button id="cancel">Cancel </button>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<!-- end modal-->
+
+  <script src="./js/main.js"></script>
+  
+</body>
+</html>
