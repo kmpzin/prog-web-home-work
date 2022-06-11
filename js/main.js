@@ -23,7 +23,7 @@ document.addEventListener('click', (e) => {
 
 // end dropdown
 // modal
-function logOut(){
+function exit(){
   if(modal.style.display === "block"){
     modal.style.display = "none";
   }else{
