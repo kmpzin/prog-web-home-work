@@ -153,33 +153,34 @@ body {
 .all-about-me {
   width: 77.4rem;
   height: 34.8rem;
-  /* teste */
-  /* margin-top: 10rem; */
-  margin: 5rem;
+  margin: auto;
   color: #fff;
+  align-content: center;
+  justify content: center;
+  align-items: center;
 }
 
 .about-me {
   width: 100%;
   height: 90%;
-  align-items: center;
-  background-color: #5d5c5c;  
+  align-content: center;
   border: solid 1px purple;
   justify-content: bottom;
+  background-color: 000;
+  border: 1px solid red;
 }
 
 .aboutme-buttons {
   width: 40%;
   height: 10%;
-  align-content: left;
   justify-content: top;
+  align-items: left;
   margin-bottom: 0;
-  background-color: #5d5c5c;
   display: flex;
 }
 
 .aboutme-buttons button {
-  width: 32.9%;
+  width: 33%;
   padding: 1rem;
   align-items: center;
   margin-bottom: 0;
@@ -190,10 +191,17 @@ body {
 .avatar {
   width: 20%;
   height: 100%;
+  padding: 1rem;
   align-items: center;
   justify-content: bottom;
-  background-color: #5d5c5c;
 }
+
+.text {
+  width: 70%;
+  height: 100%;
+  padding: 1rem;
+}
+
 .avatar img {
   margin-top: 0;
   border-radius: 50px;
@@ -201,13 +209,7 @@ body {
   align-content: center;
 }
 
-.text {
-  width: 70%;
-  height: 100%;
-}
-
 .text p {
-  background-color: #5d5c5c;
   font-size: 16px;
 }
 
