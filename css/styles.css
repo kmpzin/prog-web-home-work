@@ -222,8 +222,8 @@ body {
 
 /* modal */
 
-.modal{
-  display: block;
+#modal{
+  display: none;
   position: fixed;
   z-index: 1;
   width: 45%;
