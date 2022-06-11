@@ -26,7 +26,7 @@ git clone https://github.com/kmpzin/prog-web-home-work.git
 
 ## Teamwork code
 
-<b>First Step:</b> Open the project and runt he following command:
+<b>First Step:</b> Open the project and run he following command:
 
 ```
 git pull
