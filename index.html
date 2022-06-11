@@ -5,8 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/styles.css">
-  <link rel="stylesheet" href="./css/all.css">
-  <script src="./js/all.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Document</title>
 </head>
 <body>
@@ -53,16 +52,31 @@
   </nav>
 <!-- end Header -->
 
+<!-- carousel -->
+  <div class="slide">
+    <div class="slides">
+
+      <div id="back" class="btn">
+        <i class="fas fa-chevron-left"></i>
+      </div>
+      <div id="next" class="btn">
+        <i class="fas fa-chevron-right"></i> 
+      </div>
+      
+    </div>
+  </div>
+<!-- end carousel -->
+
  <!-- About Me -->
  <div class="all-about-me">
   <div class="aboutme-buttons">
-    <button id="lyssa">Lyssa</button>
-    <button id="neylson">Neylson</button>
-    <button id="victor">Victor</button>
+    <button onclick="Lyssa()">Lyssa</button>
+    <button onclick="Neylson()">Neylson</button>
+    <button onclick="Victor()">Victor</button>
   </div> 
 
   <div id="about-me">
-    <div id="description_lyssa" class="active">
+    <div id='lyssa' class="active">
       <div class="avatar">
         <img src="assets/lyssa.svg" alt="">
       </div>
@@ -75,7 +89,7 @@
       </div>
     </div>
 
-    <div id="description_victor" class="inactive">
+    <div id='victor' class="inactive">
       <div class="avatar">
         <img src="assets/victor.svg" alt="">
       </div>
@@ -88,7 +102,7 @@
       </div>
     </div>
 
-    <div id="description_neylson" class="inactive">
+    <div id='neylson' class="inactive">
       <div class="avatar">
         <img src="assets/hideo.svg" alt="">
       </div>

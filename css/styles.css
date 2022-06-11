@@ -154,7 +154,7 @@ body {
   width: 77.4rem;
   height: 34.8rem;
   /* teste */
-  margin-top: 10rem;
+  /* margin-top: 10rem; */
   margin: 5rem;
   color: #fff;
 }
@@ -169,20 +169,22 @@ body {
 }
 
 .aboutme-buttons {
-  width: 60%;
+  width: 40%;
   height: 10%;
   align-content: left;
   justify-content: top;
   margin-bottom: 0;
   background-color: #5d5c5c;
+  display: flex;
 }
 
 .aboutme-buttons button {
-  width: 32.3%;
+  width: 32.9%;
   padding: 1rem;
   align-items: center;
   margin-bottom: 0;
   cursor: pointer;
+  
 }
 
 .avatar {
@@ -214,7 +216,15 @@ body {
   font-size: 24px;
 }
 
-#description_lyssa {
+#lyssa {
+  display: flex;
+}
+
+#neylson {
+  display: flex;
+}
+
+#victor {
   display: flex;
 }
 /* END about me */

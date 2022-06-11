@@ -19,9 +19,10 @@ document.addEventListener('click', (e) => {
 
     submenu.classList.remove('show')
   })
-})
+});
 
 // end dropdown
+
 // modal
 function exit(){
   if(modal.style.display === "block"){
@@ -31,3 +32,36 @@ function exit(){
   }
 }
 // end modal
+
+
+
+// About me
+function Lyssa() {
+  lyssa.classList.add('active');
+  lyssa.classList.remove('inactive');
+  victor.classList.add('inactive');
+  victor.classList.remove('active')
+  neylson.classList.add('inactive');
+  neylson.classList.remove('active');
+}
+
+function Neylson() {
+  neylson.classList.add('active');
+  neylson.classList.remove('inactive');
+  victor.classList.add('inactive');
+  victor.classList.remove('active')
+  lyssa.classList.add('inactive');
+  lyssa.classList.remove('active');
+}
+
+function Victor() {
+  victor.classList.add('active');
+  victor.classList.remove('inactive')
+  lyssa.classList.add('inactive');
+  lyssa.classList.remove('active');
+  neylson.classList.add('inactive');
+  neylson.classList.remove('active');
+}
+
+// end About me
+
