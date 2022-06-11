@@ -193,20 +193,27 @@ body {
   height: 100%;
   padding: 1rem;
   align-items: center;
-  justify-content: bottom;
+  align-content:center;
+  justify-content: center;
+  position: relative;
 }
 
 .text {
   width: 70%;
   height: 100%;
   padding: 1rem;
+  align-items: center;
+  align-content:center;
+  justify-content: center;
+  padding: 6rem;
 }
 
 .avatar img {
   margin-top: 0;
   border-radius: 50px;
-  align-items: center;
-  align-content: center;
+  position: absolute;
+  top: 6rem;
+  right: 2rem;
 }
 
 .text p {
