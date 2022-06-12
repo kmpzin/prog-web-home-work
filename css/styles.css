@@ -170,6 +170,7 @@ body {
   border: 1px solid red;
 }
 
+
 .aboutme-buttons {
   width: 40%;
   height: 10%;
@@ -227,15 +228,7 @@ body {
 
 }
 
-#lyssa {
-  display: flex;
-}
-
-#neylson {
-  display: flex;
-}
-
-#victor {
+#lyssa, #neylson, #victor {
   display: flex;
 }
 /* END about me */
