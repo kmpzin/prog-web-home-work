@@ -37,30 +37,30 @@ function exit(){
 
 // About me
 function Lyssa() {
-  lyssa.classList.add('active');
-  lyssa.classList.remove('inactive');
-  victor.classList.add('inactive');
-  victor.classList.remove('active')
-  neylson.classList.add('inactive');
-  neylson.classList.remove('active');
+  lyssa.classList.add("aboutme-active");
+  lyssa.classList.remove("aboutme-inactive");
+  victor.classList.add("aboutme-inactive");
+  victor.classList.remove("aboutme-active");
+  neylson.classList.add("aboutme-inactive");
+  neylson.classList.remove("aboutme-active");
 }
 
 function Neylson() {
-  neylson.classList.add('active');
-  neylson.classList.remove('inactive');
-  victor.classList.add('inactive');
-  victor.classList.remove('active')
-  lyssa.classList.add('inactive');
-  lyssa.classList.remove('active');
+  neylson.classList.add("aboutme-active");
+  neylson.classList.remove("aboutme-inactive");
+  victor.classList.add("aboutme-inactive");
+  victor.classList.remove("aboutme-active");
+  lyssa.classList.add("aboutme-inactive");
+  lyssa.classList.remove("aboutme-active");
 }
 
 function Victor() {
-  victor.classList.add('active');
-  victor.classList.remove('inactive')
-  lyssa.classList.add('inactive');
-  lyssa.classList.remove('active');
-  neylson.classList.add('inactive');
-  neylson.classList.remove('active');
+  victor.classList.add("aboutme-active");
+  victor.classList.remove("aboutme-inactive");
+  lyssa.classList.add("aboutme-inactive");
+  lyssa.classList.remove("aboutme-active");
+  neylson.classList.add("aboutme-inactive");
+  neylson.classList.remove("aboutme-active");
 }
 
 // end About me
