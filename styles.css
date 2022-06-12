@@ -44,7 +44,6 @@ body {
 }
 
 .submenu {
-  z-index: 99999;
   background-color: #252525;
   border-radius: 5px;
   position: absolute;
@@ -139,6 +138,86 @@ body {
 }
 /* END menu */
 
+/* CAROUSEL */
+.slide {
+  width: 1024px;
+  height: 576px;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.4s;
+  margin: 0 auto;
+}
+
+.slides {
+  width: 5120px;
+  display: flex;
+}
+
+.carousel-img img {
+  width: 1024px;
+  height: 576px;
+}
+
+#atual {
+  transition: all 2s;
+}
+
+.btn-corusel {
+  position: absolute;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all .4s;
+  font-size: 1.7em;
+  margin-top: -5px;
+}
+
+.btn-corusel:hover {
+  transform: scale(1.5);
+}
+
+#back {
+  top: 50%;
+  left: 10%;
+}
+
+#next {
+  top: 50%;
+  right: 10%;
+}
+
+.balls {
+  position: absolute;
+  width: 1024px;
+  display: flex;
+  justify-content: center;
+  margin-top: -45px;
+}
+
+.balls div{
+  transition: all 0.5s;
+  border: 3px solid #fff;
+  padding: 6px;
+  border-radius: 50%;
+  margin-right: 15px; 
+  cursor: pointer;
+}
+
+.balls div:hover {
+  background-color: #fff;
+}
+
+.carousel-img-atual {
+  transition: all 0.5s;
+  background-color: #fff;
+}
+
+/* END CAROUSEUL */
+
 
 
 /* ABOUT ME  */
@@ -156,7 +235,7 @@ body {
   margin: auto;
   color: #fff;
   align-content: center;
-  justify content: center;
+  justify-content: center;
   align-items: center;
   position: relative;
 }
