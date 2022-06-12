@@ -1,13 +1,13 @@
 //  dropdown
 document.addEventListener('click', (e) => {
-  let isDropDownBtn = e.target.classList.contains('dropdown')
+  const isDropDownBtn = e.target.classList.contains('dropdown')
 
   if(!isDropDownBtn && e.target.closest('.navbar_item') != null) return
 
   let currentSubMenu
 
   if(isDropDownBtn) {
-    let item = e.target.closest('.navbar_item')
+    const item = e.target.closest('.navbar_item')
 
     currentSubMenu = item.querySelector('.submenu')
 
@@ -21,67 +21,68 @@ document.addEventListener('click', (e) => {
   })
 });
 
-// end dropdown
-
 // carousel
-  let balls = document.querySelector('.balls')
-  let quant = document.querySelectorAll('.slides .carousel-img')
-  let atual = 0
-  let image = document.getElementById('atual')
-  let next = document.getElementById('next')
-  let back = document.getElementById('back')
-  let rolar = true
-  
-  for (let i = 0; i < quant.length; i++) {
-    let div = document.createElement('div')
-    div.id = i
-    balls.appendChild(div)
-  }
-  document.getElementById('0').classList.add('imgAtual')
 
-  let pos = document.querySelectorAll('.balss div')
+let balls = document.querySelector('.balls')
+let quant = document.querySelectorAll('.slides .images')
+let atual = 0
+let imagem = document.getElementById('atual')
+let next = document.getElementById('next')
+let voltar = document.getElementById('voltar')
+let rolar = true
 
-  for (let i = 0; i < pos.length; i++) {
-    pos[i].addEventListener('click', () => { 
-      atual = pos[i].id
-      rolar = false
-      slide()
-    })
-  }
+for(let i=0; i < quant.length; i++){
+  let div = document.createElement('div')
+  div.id = i
+  balls.appendChild(div)
+}
+document.getElementById('0').classList.add('imgAtual')
 
-  back.addEventListener('click', () => {
-    atual--
+let pos = document.querySelectorAll('.balls div')
+
+for(let i=0; i < pos.length; i++){
+  pos[i].addEventListener('click', () => {
+    atual = pos[i].id
     rolar = false
     slide()
   })
-  next.addEventListener('click', () => {
+}
+
+voltar.addEventListener('click', () => {
+  atual--
+  rolar = false
+  slide()
+})
+next.addEventListener('click', () => {
+  atual++
+  rolar = false
+  slide()
+})
+
+function slide(){
+  if(atual >= quant.length){
+    atual = 0
+  }
+  else if(atual < 0){
+    atual = quant.length-1
+  }
+  document.querySelector('.imgAtual').classList.remove('imgAtual')
+  imagem.style.marginLeft = -1024*atual+'px'
+  document.getElementById(atual).classList.add('imgAtual')
+}
+setInterval(() => {
+  if(rolar){
     atual++
-    rolar = false
     slide()
-  })
-
-  function slide() {
-    if (atual >= quant.length){
-      atual = 0 
-    }
-    else if (atual < 0) {
-      atual = quant.length-1
-    }
-    document.querySelector('.imgAtual').classList.remove('.imgAtual')
-    image.style.marginLeft = -1024*atual+'px'
-    document.getElementById(atual).classList.add('.imgAtual')
   }
-  setInterval(() => {
-    if(rolar){
-      atual++
-      slide()
-    }
-    else {
-      rolar = true 
-    }
-  }, 4000);
+  else{
+    rolar = true 
+  }
+}, 4000);
+
 // end carousel
 
+// end dropdown
 
 // modal
 function exit(){
@@ -97,30 +98,30 @@ function exit(){
 
 // About me
 function Lyssa() {
-  lyssa.classList.add('active');
-  lyssa.classList.remove('inactive');
-  victor.classList.add('inactive');
-  victor.classList.remove('active')
-  neylson.classList.add('inactive');
-  neylson.classList.remove('active');
+  lyssa.classList.add("aboutme-active");
+  lyssa.classList.remove("aboutme-inactive");
+  victor.classList.add("aboutme-inactive");
+  victor.classList.remove("aboutme-active");
+  neylson.classList.add("aboutme-inactive");
+  neylson.classList.remove("aboutme-active");
 }
 
 function Neylson() {
-  neylson.classList.add('active');
-  neylson.classList.remove('inactive');
-  victor.classList.add('inactive');
-  victor.classList.remove('active')
-  lyssa.classList.add('inactive');
-  lyssa.classList.remove('active');
+  neylson.classList.add("aboutme-active");
+  neylson.classList.remove("aboutme-inactive");
+  victor.classList.add("aboutme-inactive");
+  victor.classList.remove("aboutme-active");
+  lyssa.classList.add("aboutme-inactive");
+  lyssa.classList.remove("aboutme-active");
 }
 
 function Victor() {
-  victor.classList.add('active');
-  victor.classList.remove('inactive')
-  lyssa.classList.add('inactive');
-  lyssa.classList.remove('active');
-  neylson.classList.add('inactive');
-  neylson.classList.remove('active');
+  victor.classList.add("aboutme-active");
+  victor.classList.remove("aboutme-inactive");
+  lyssa.classList.add("aboutme-inactive");
+  lyssa.classList.remove("aboutme-active");
+  neylson.classList.add("aboutme-inactive");
+  neylson.classList.remove("aboutme-active");
 }
 
 // end About me
