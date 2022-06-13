@@ -92,6 +92,13 @@ function exit(){
     modal.style.display = "block";
   }
 }
+function confirmExit(){
+  if(modal.style.display === "none"){
+    modal.style.display = "block";
+  }else{
+    modal.style.display = "none";
+  }
+}
 // end modal
 
 
