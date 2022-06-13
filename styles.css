@@ -136,6 +136,10 @@ body {
   background-color: #fff;
   cursor: pointer;
 }
+
+.form_btn:hover {
+  background-color: #EF3445;
+}
 /* END menu */
 
 /* CAROUSEL */
@@ -332,39 +336,48 @@ body {
   z-index: 1;
   width: 45%;
   height: 35%;
-  border: solid 1px green;
   left: 30%;
   top: 25%;
 }
 
 .conteudo_modal{
-  background-color: #746cbd;
+  background-color: #192555;
   border-radius: 5px;
   padding-top: 10%;
   width: 100%;
   height: 100%;
-  
+  /* posição */
   display: flex;
   flex-direction: column;
   align-items: center;
+  align-content: center;
+}
+
+.h3{
+  color: white;
 }
 
 .botoes_modal{
   flex-direction: row;
   width: 80%;
   height: 100%;
-  padding-top: 10%;  
+  padding-top: 10%; 
+  align-items: flex-end; 
+  align-content:space-between;
 }
 #logOut{
-  width: 40%;
-  height: 40%;
+  width: 30%;
+  height: 60%;
   border-radius: 5px;
   margin-right: 80px;
 }
-#cancel{
-  width: 40%;
-  height: 40%;
-  border-radius: 5px;
-  border: solid 1px green;
+#logOut:hover{
+  background-color: #EF3445;
+  border: 0px;
 }
+#cancel{
+  width: 30%;
+  height: 60%;
+  border-radius: 5px;
+ }
 /* end modal */
