@@ -255,7 +255,7 @@ body {
   border: solid 1px purple;
   justify-content: bottom;
   background-color: #000;
-  border: 1px solid red;
+  border: 1px solid purple;
   position: absolute;
   top: 3.4rem;
   
@@ -278,7 +278,7 @@ body {
   margin-bottom: 0;
   cursor: pointer;
   background-color: #000;
-  border: 1px solid red;
+  border: 1px solid purple;
   color: #fff;
   font-weight: 700;
 }
