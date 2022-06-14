@@ -258,7 +258,8 @@ body {
   align-content: center;
   justify-content: bottom;
   background-color: #000;
-  border: 1px solid purple;
+  border: none;
+  border-radius: 0 5px 5px 5px;
   position: absolute;
   top: 3.4rem;
   
@@ -272,18 +273,31 @@ body {
   align-items: left;
   margin-bottom: 0;
   display: flex;
+  border-radius: 5px 5px 0 0;
+  background-color: #000;
 }
 
 .aboutme-buttons button {
-  width: 33%;
+  width: 33.3%;
   padding: 1rem;
   align-items: center;
   margin-bottom: 0;
   cursor: pointer;
-  background-color: #000;
-  border: 1px solid purple;
+  border: none;
   color: #fff;
   font-weight: 700;
+  border-radius: 5px 5px 0 0;
+  background-color: #000;
+}
+
+.aboutme-buttons button:hover {
+  color:fff;
+  background-color: #192555;
+}
+
+.aboutme-buttons button:active {
+  color:fff;
+  background-color: #192555;
 }
 
 .avatar {
