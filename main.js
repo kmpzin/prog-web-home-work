@@ -20,6 +20,7 @@ document.addEventListener('click', (e) => {
     submenu.classList.remove('show')
   })
 });
+// END DROPDOWN
 
 // BURGUER
 const logo = document.querySelector('.container-burguer')
