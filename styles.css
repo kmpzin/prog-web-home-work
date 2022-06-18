@@ -391,11 +391,8 @@ body {
 .text {
   width: 70%;
   height: 100%;
-  padding: 1rem;
-  align-items: center;
-  align-content:center;
+  padding: 2rem;
   justify-content: center;
-  padding: 6rem;
 }
 
 .avatar img {
@@ -413,6 +410,7 @@ body {
 .text h3 {
   font-size: 24px;
   font-weight: 700;
+  margin: 1rem 0;
 }
 
 #lyssa, #neylson, #victor {
