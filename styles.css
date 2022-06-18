@@ -422,7 +422,8 @@ body {
 
 /* modal */
 
-#modal{
+#modal {
+  background-color: #192555;
   display: none;
   position: fixed;
   z-index: 1;
@@ -430,41 +431,69 @@ body {
   height: 35%;
   left: 30%;
   top: 25%;
+  display: flex;
+  border-radius: 5px;
 }
 
-.conteudo_modal{
-  background-color: #192555;
+.conteudo_modal {
   border-radius: 5px;
-  padding-top: 10%;
   width: 100%;
   height: 100%;
-  /* posição */
-  display: flex;
-  flex-direction: column;
+  padding: 4rem 2rem 2rem 2rem;
+  justify-items: center;
   align-items: center;
   align-content: center;
+  text-align: center;
 }
 
+
 .h3{
-  color: white;
+  color: #fff;
 }
 
 .botoes_modal{
-  flex-direction: row;
-  width: 80%;
-  height: 100%;
-  padding-top: 10%; 
-  align-items: flex-end; 
-  align-content:space-between;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100% - 5vh) ;
+  align-items: center;
+  align-content: space-around;
 }
-#logOut{
-  width: 30%;
-  height: 60%;
+
+.botoes_modal button {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 10rem;
+  height: 2rem;
+  margin: 1rem;
+  padding: 1.2rem;
+  cursor: pointer;
   border-radius: 5px;
-  margin-right: 80px;
+  border: none;
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
 }
+
 #logOut:hover{
   background-color: #EF3445;
+  border: none;  
+}
+
+#cancelChange {
+  background-color: #fff;
+}
+
+#cancel {
+  background-color: #7119e4;
+}
+
+#cancel:hover {
+  background-color: #fff;
+  color: #7119e4;
+  border: none;
+}
+/* end modal
 
 /* footer */
 footer {
