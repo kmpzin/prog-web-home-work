@@ -34,7 +34,7 @@ body {
 }
 
 .navbar_item:not(:first-child) {
-  margin-left: 30px;
+    margin-left: 30px;
 }
 
 .navbar_item a {
@@ -356,7 +356,7 @@ body {
 }
 
 .aboutme-buttons button {
-  width: 33.3%;
+  width: 33.33%;
   padding: 1rem;
   align-items: center;
   margin-bottom: 0;
@@ -369,13 +369,14 @@ body {
 }
 
 .aboutme-buttons button:hover {
-  color:fff;
+  color: #fff;
   background-color: #192555;
 }
 
 .aboutme-buttons button:active {
-  color:fff;
+  color: #fff;
   background-color: #192555;
+  align-items: center;
 }
 
 .avatar {
@@ -506,5 +507,5 @@ footer {
 .footer span {
   text-align: center;
   color: #fff;
- }
+}
 /* end footer */
