@@ -388,11 +388,18 @@ body {
 }
 #logOut:hover{
   background-color: #EF3445;
-  border: 0px;
+
+/* footer */
+footer {
+  background-color: #252525;
+  width: 100%;
+  height: 10%;
+  padding: 1rem;
+  text-align: center;
 }
-#cancel{
-  width: 30%;
-  height: 60%;
-  border-radius: 5px;
+
+.footer span {
+  text-align: center;
+  color: #fff;
  }
-/* end modal */
+/* end footer */
