@@ -142,6 +142,82 @@ body {
 }
 /* END menu */
 
+/* BURGUER */
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.container-burguer {
+  float: right;
+  height: 25px;
+  width: 40px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menulogo {
+  height: 3px;
+  width: 30px;
+  background-color: #fffafa;
+}
+
+.menu-burguer {
+  width: 50%;
+  height: 100vh;
+  background-color: #6a5acd;
+  padding: 50px;
+  transform: translateX(-500px);
+  transition: 0.5s;
+}
+
+.menu-burguer li {
+  list-style-type: none;
+  border-bottom: 1px solid rgb(130,170,218);
+  padding: 30px 0;
+  text-align: center;
+}
+
+.showmenu {
+  transform: translateX(0);
+}
+
+.menu-burguer li:last-child {
+  border-bottom: none;
+}
+
+.menu-burguer li:first-child a {
+  font-weight: bold;
+}
+
+.menu-burguer li a {
+  color: #fffafa;
+  text-decoration: none;
+  font-size: 20px;
+  transition: font-weight 0.2s;
+}
+
+.menu-burguer li a:hover {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1000px) {
+  .menu-burguer {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu-burguer li a {
+    font-size: 16px; 
+  }
+}
+/* END BURGUER */
+
 /* CAROUSEL */
 
 .carousel {

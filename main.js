@@ -21,6 +21,15 @@ document.addEventListener('click', (e) => {
   })
 });
 
+// BURGUER
+const logo = document.querySelector('.container-burguer')
+const menuBurguer = document.querySelector('.menu-burguer')
+
+logo.addEventListener('click', () => {
+  menuBurguer.classList.toggle('showmenu')
+})
+// END BURGUER
+
 // carousel
 
 let balls = document.querySelector('.balls')
