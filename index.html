@@ -10,12 +10,13 @@
 </head>
 <body>
 <!-- Header -->
-  <nav class="navbar">
+<header id="header">
+  <nav id="nav">
     <a href="#"><img class="navbar_logo" src="./assets/logo-coding.svg" alt="coding log"></a>
-    
+
     <ul class="navbar_menu">
       <li class="navbar_item"><a href="#">Home</a></li>
-      
+
       <li class="navbar_item">
         <a href="#" class="dropdown">Services</a>
         
@@ -49,7 +50,8 @@
         </div>
       </li>
     </ul>
-  </nav>
+  </nav>  
+</header>
 <!-- end Header -->
 
 <!-- BURGUER -->
@@ -159,8 +161,8 @@
   <div class="conteudo_modal">
     <h3 class="h3"> Do you really want to Exit?</h3>
       <div class="botoes_modal">
-      <button onclick="confirmExit()" id="logOut">Exit</button>
-      <button onclick="confirmExit()" id="cancel">Cancel </button>
+      <button onclick="confirmExit()" id="logOut" class="btn-modal">Exit</button>
+      <button onclick="confirmExit()" id="cancel" class="btn-modal">Cancel </button>
       </div>
     </div>
   </div> 

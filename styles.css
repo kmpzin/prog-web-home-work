@@ -13,7 +13,7 @@ body {
 }
 
 /* MENU */
-.navbar {
+#nav {
   background-color: #252525;
   display: flex;
   justify-content: space-between;
@@ -140,6 +140,7 @@ body {
 .form_btn:hover {
   background-color: #EF3445;
 }
+
 /* END menu */
 
 /* BURGUER */
