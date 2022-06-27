@@ -511,3 +511,33 @@ footer {
   color: #fff;
 }
 /* end footer */
+
+/* RESPONSIVIDADE */
+@media (min-width: 280px) and (max-width: 767px) {
+  .all-aboutme {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .balls {
+    width: 100%;
+  }
+
+  .aboutme-buttons {
+    width: 100%;
+    ALIGN-ITEMS: CENTER;
+    padding: 0;
+  }
+
+  .aboutme {
+    position: relative;
+    top: 0;
+    height: auto;
+  }
+
+  .aboutme-inactive {
+    
+  }
+}
+
+/*  */
