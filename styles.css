@@ -168,12 +168,14 @@ body {
 }
 
 .menu-burguer {
+  position: absolute;
   width: 50%;
   height: 100vh;
   background-color: #6a5acd;
   padding: 50px;
   transform: translateX(-500px);
   transition: 0.5s;
+  z-index: 1;
 }
 
 .menu-burguer li {
