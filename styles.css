@@ -339,7 +339,7 @@ body {
   justify-content: bottom;
   background-color: #110027;
   border: none;
-  border-radius: 0 5px 5px 5px;
+  border-radius: 0 15px 15px 15px;
   position: absolute;
   top: 3.4rem;
 }
@@ -352,7 +352,7 @@ body {
   align-items: left;
   margin-bottom: 0;
   display: flex;
-  border-radius: 5px 5px 0 0;
+  border-radius: 15px 15px 0 0;
   background-color: #110027;
 }
 
