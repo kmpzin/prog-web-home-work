@@ -337,7 +337,7 @@ body {
   height: 90%;
   align-content: center;
   justify-content: bottom;
-  background-color: #000;
+  background-color: #110027;
   border: none;
   border-radius: 0 5px 5px 5px;
   position: absolute;
@@ -354,7 +354,7 @@ body {
   margin-bottom: 0;
   display: flex;
   border-radius: 5px 5px 0 0;
-  background-color: #000;
+  background-color: #110027;
 }
 
 .aboutme-buttons button {
@@ -367,7 +367,7 @@ body {
   color: #fff;
   font-weight: 700;
   border-radius: 5px 5px 0 0;
-  background-color: #000;
+  background-color: #110027;
 }
 
 .aboutme-buttons button:hover {
@@ -540,4 +540,4 @@ footer {
   }
 }
 
-/*  */
+/* end responsividade */
