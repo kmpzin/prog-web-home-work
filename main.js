@@ -105,10 +105,8 @@ function exit(){
 function confirmExit(){
   if(modal.style.visibility === "hidden"){
     modal.style.visibility = "visible";
-    console.log("aparecer");
   }else{
     modal.style.visibility = "hidden";
-    console.log("desaparecer");
   }
 }
 // end modal
