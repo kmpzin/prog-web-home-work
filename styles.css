@@ -407,6 +407,7 @@ body {
 
 .text p {
   font-size: 16px;
+  text-align: justify;
 }
 
 .text h3 {
