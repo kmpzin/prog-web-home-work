@@ -381,7 +381,7 @@ body {
 }
 
 .avatar {
-  width: 30%;
+  width: 20%;
   height: 100%;
   padding: 1rem;
   align-items: center;
@@ -391,9 +391,9 @@ body {
 }
 
 .text {
-  width: 70%;
+  width: 80%;
   height: 100%;
-  padding: 2rem;
+  padding: 4rem 4rem 4rem 1rem;
   justify-content: center;
 }
 
@@ -402,7 +402,7 @@ body {
   position: absolute;
   top: 6rem;
   right: 2rem;
-  width: 60%;
+  width: 65%;
 }
 
 .text p {
