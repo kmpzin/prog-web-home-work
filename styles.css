@@ -425,8 +425,8 @@ body {
 /* modal */
 
 #modal {
+  visibility: hidden;
   background-color: #192555;
-  display: none;
   position: fixed;
   z-index: 1;
   width: 45%;

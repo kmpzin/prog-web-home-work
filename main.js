@@ -96,17 +96,19 @@ setInterval(() => {
 
 // modal
 function exit(){
-  if(modal.style.display === "block"){
-    modal.style.display = "none";
+  if(modal.style.visibility === "visible"){
+    modal.style.visibility = "hidden";
   }else{
-    modal.style.display = "block";
+    modal.style.visibility = "visible";
   }
 }
 function confirmExit(){
-  if(modal.style.display === "none"){
-    modal.style.display = "block";
+  if(modal.style.visibility === "hidden"){
+    modal.style.visibility = "visible";
+    console.log("aparecer");
   }else{
-    modal.style.display = "none";
+    modal.style.visibility = "hidden";
+    console.log("desaparecer");
   }
 }
 // end modal
