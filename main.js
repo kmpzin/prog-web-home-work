@@ -143,3 +143,10 @@ function Victor() {
 
 // end About me
 
+// theme
+const chk = document.getElementById('chk')
+
+chk.addEventListener('change', () => {
+  document.body.classList.toggle('dark')
+})
+// end theme
