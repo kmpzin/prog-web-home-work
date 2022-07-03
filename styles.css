@@ -81,26 +81,21 @@ body {
   display: flex;
   align-items: center;
   width: max-content;
-  transition: background-color 2s;
   cursor: pointer;
   border-radius: 5px;
   margin-bottom: 20px;
 }
 
 .submenu_item:hover {
-  background-color: #eee;
+  background-color: #2B2B2B;
+  color: #000;
   border-radius: 5px;
 }
 
-.submenu_item h4 {
+.submenu_item h4{
   font-weight: 400;
   color: #fff;
-  transition: background-color 2s;
 }
-
-.submenu_item h4:hover {
-  color: #000;
-} 
 
 .submenu_item p {
   font-size: 26px;
